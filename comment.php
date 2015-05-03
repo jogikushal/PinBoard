@@ -24,7 +24,6 @@
 				    </div>
 				    <div class="commentBox">
 				        
-				        <p class="taskDescription">Tags: </p>
 				    </div>
 				    <div class="actionBox">
 				        <ul class="commentList">
