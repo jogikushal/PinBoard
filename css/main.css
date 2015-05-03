@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.column{
+ padding: 0;
+}
+
+.navigation{
+  list-style: none;
+  
+  text-align: center;
+  background: #8D38C9;
+  height: 80px;
+  padding: 20px;
+}
+
+.navigation li{
+  display: inline-block;
+  margin: 0;
+}
+
+.navigation span{
+  font-size: 20px;
+}
+
+.navigation li .searchbutton{
+  border-radius: 10px;
+}
+
+.navigation li input{
+  margin: 0;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.navigation li .profileinfo{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
