@@ -13,7 +13,7 @@
 			$username=$_POST['username'];
 			$password=$_POST['password'];
 			// Establishing Connection with Server by passing server_name, user_id and password as a parameter
-			$connection = mysqli_connect("localhost", "root", "root","pinyourinterest");
+			$connection = mysqli_connect("localhost", "root", "","pinyourinterest");
 			 
 			// SQL query to fetch information of registerd users and finds user match.
 			$query = mysqli_query($connection,"select * from login where password='$password' AND username='$username'");
